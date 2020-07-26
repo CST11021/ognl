@@ -56,9 +56,9 @@ public class Main {
     @Test
     public void test2() {
         try {
-            System.out.println(Ognl.getValue("@test.ognl.Constant@ONE", null));
-            System.out.println(Ognl.getValue("@test.ognl.Constant@get()", null));
-            System.out.println(Ognl.getValue("@test.ognl.Constant@getString()", null));
+            System.out.println(Ognl.getValue("@com.whz.Constant@ONE", null));
+            System.out.println(Ognl.getValue("@com.whz.Constant@get()", null));
+            System.out.println(Ognl.getValue("@com.whz.Constant@getString()", null));
         } catch (OgnlException e) {
             e.printStackTrace();
         }
